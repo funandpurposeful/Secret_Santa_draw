@@ -13,9 +13,10 @@ If you stick to gmail email services, please, mind the following: Since May 30, 
 
 # How to run this app
 
-1. you would need to provide positional arguments: --names --emails --email --password
+You would need to provide positional arguments: --names --emails --email --password
 
 An example of how it might look like:
+
 python main.py --names Ellie Bob Pink --emails ellie@gmail.com Bob@yahoo.com Pink@hotmail.co.uk --email secretsanta2022@gmail.com password -- jhjgsdgshdg
 
 Mind providing emails of people in the exact order as their names 
