@@ -82,7 +82,7 @@ if __name__ == "__main__":
                 connection.sendmail(
                     from_addr = my_email, 
                     to_addrs = i[1], 
-                    msg = f"Subject: Secret Santa draw for CaunceMass\n\n Dear, {i[0]} \n\n I'm addressing you to inform that I've decided to delegate you to be a secret Santa to {i[2]} this year at CaunceMass. \n Think how you could make them happy. That would make my life so much easier! Many thanks! ;) \n\n Faithfully yours, Santa Claus XOXOXO"
+                    msg = f"Subject: Secret Santa draw for CaunceMass\n\n Dear, {i[0]} \n\n I'm addressing you to inform that I've decided to delegate you to be a secret Santa to {i[2]} this year. \n Think how you could make them happy. That would make my life so much easier! Many thanks! ;) \n\n Faithfully yours, Santa Claus XOXOXO"
                     )
     if any(m) == False:
         print("No dupes from the first instance")
