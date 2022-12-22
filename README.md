@@ -19,6 +19,6 @@ An example of how it might look like:
 
 python main.py --names Ellie Bob Pink --emails ellie@gmail.com Bob@yahoo.com Pink@hotmail.co.uk --email secretsanta2022@gmail.com password -- jhjgsdgshdg
 
-Mind providing emails of people in the exact order as their names 
+Mind to provide emails of people in the exact order as their names!  
 
 Merry Christmas! 
